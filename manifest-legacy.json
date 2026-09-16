@@ -1,0 +1,22 @@
+[
+  {
+    "id": "cinemana-iq",
+    "name": "Cinemana",
+    "version": "1.0.0",
+    "description": "Local Cinemana provider with 4K and subtitles",
+    "filename": "providers/cinemana.js",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "enabled": true,
+    "contentLanguage": [
+      "ar",
+      "en"
+    ],
+    "formats": [
+      "mp4"
+    ],
+    "supportsExternalPlayer": true
+  }
+]
