@@ -1,0 +1,27 @@
+{
+  "name": "Cinemana Iraq",
+  "version": "1.0.0",
+  "description": "Cinemana movies and series, all available qualities including 2160p, with Arabic and English subtitles. Requires a network supported by Cinemana.",
+  "scrapers": [
+    {
+      "id": "cinemana-iq",
+      "name": "Cinemana",
+      "version": "1.0.0",
+      "description": "Local Cinemana provider with 4K and subtitles",
+      "filename": "providers/cinemana.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true,
+      "contentLanguage": [
+        "ar",
+        "en"
+      ],
+      "formats": [
+        "mp4"
+      ],
+      "supportsExternalPlayer": true
+    }
+  ]
+}
